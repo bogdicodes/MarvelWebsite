@@ -1,0 +1,117 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(12, 12, 187);
+    margin: 0;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    
+}
+
+body {
+    margin: 0;
+}
+
+#ximg {
+    width: 200px;
+    height: 100px;
+    padding-top: 15px;
+    padding-right:10px;
+}
+
+#marvelimg {
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    border: solid 2px red;
+    margin-top: 40px;
+    background-color: white;
+
+
+}
+
+
+nav{
+    padding: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.navbar a:hover {
+    color:red ;
+}
+
+main {
+    background: url("mainphoto.jpg") center center / cover;
+    padding: 0;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+}
+
+.footerlinks {
+    display: flex;
+    justify-content: center;
+}
+
+.footerlinks a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.footerlinks a:hover {
+    color: black;
+}
+
+footer {
+    background-color: red;
+
+}
+
+.stats {
+    position: relative;
+    margin-top: 3%;
+    left: 10%;
+    background-color: royalblue;
+    border: solid 1px black;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 5px;
+    line-height: 24px;
+}
+
+.stats ul li {
+    list-style: none;
+    padding-top: 5px;
+    padding-right: 30px;
+}
+
+.title{
+    color: yellow;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#subtext {
+    padding-left: 15px;
+}
+
+.wolverine {
+    color:red;
+    padding-top: 180px;
+    padding-left: 10%;
+    padding-left: 300px;
+    font-size: 70px;
+}
